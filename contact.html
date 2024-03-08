@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+
+  <html lang="en">
+  
+  <head>
+  
+  <meta charset="utf-8">
+  <meta name="description" content="Jus’s Cafe is a beautiful restaurant for couples.">
+  
+  <title>Jus’s Cafe-Contact Us</title>
+  <link href="jus.css" rel="stylesheet">
+  
+  </head>
+  
+  <body>
+  
+  <div id="wrapper">
+  
+  <header>
+    <h1><a href="index.html">Jus’s Cafe</a></h1>
+  
+  </header>
+  
+  <br><br>
+  <blockquote>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="history.html">History</a</li>
+        <li><a href="specials.html">Specials</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      
+    </ul>
+  </nav>
+      </blockquote>
+  
+  <div id="contacthero"></div>
+  
+  <main>
+      <h2>Contact Us</h2>
+      <form action="formmail.asp" method="POST">
+        <fieldset>
+          <legend>Personal Information</legend>
+          <label for="firstName">First Name:</label>
+          <input type="text" id="firstName" name="firstName" required><br>
+          
+          <label for="lastName">Last Name:</label>
+          <input type="text" id="lastName" name="lastName" required><br>
+          
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required><br>
+          
+          <label for="phone">Phone:</label>
+          <input type="tel" id="phone" name="phone" required><br>
+        </fieldset>
+        
+        <fieldset>
+          <legend>Question or Comment</legend>
+          <textarea name="message" rows="4" required></textarea>
+        </fieldset>
+        
+        <fieldset>
+          <legend>Communication Preference</legend>
+          <input type="radio" id="emailPreference" name="preference" value="email" checked>
+          <label for="emailPreference">Email</label>
+          
+          <input type="radio" id="phonePreference" name="preference" value="phone">
+          <label for="phonePreference">Phone</label>
+        </fieldset>
+        
+        <input type="submit" value="Submit">
+      </form>
+    </main>
+    <footer>
+        <small><i>Copyright © 2024 Jus’s Cafe</i></small><br>
+        
+        <a>justine@mukashyaka.com</a>
+        </footer>
+        <script>
+          var date = document.lastModified;
+          document.write("This page was last modified on: " + date);
+        </script
+        </body>
+        
+        </html>
